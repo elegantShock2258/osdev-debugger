@@ -1,0 +1,52 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "deno-server": "deno run --allow-net src/app/server/websocket.ts",
+    "lint": "next lint",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "@tanstack/react-query": "^5.40.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dlx": "^0.2.1",
+    "framer-motion": "^11.2.9",
+    "lucide-react": "^0.381.0",
+    "next": "15.2.4",
+    "next-auth": "^4.24.7",
+    "prisma": "^5.14.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sharp": "^0.33.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "ts-node": "^10.9.2",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.35.6",
+    "@types/node": "^20",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.1",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "15.2.4",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "sass": "^1.75.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "resolutions": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.1"
+  }
+}
